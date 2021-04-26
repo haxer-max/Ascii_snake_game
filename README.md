@@ -14,5 +14,5 @@ $ python snake.py
 ```
 
 
-> This Windows only since linux users don't play game. Also linux doesn't have msvcrt library.
+> This game is Windows only since linux users don't play game. Also linux doesn't have msvcrt library.
 
