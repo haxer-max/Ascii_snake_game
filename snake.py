@@ -4,14 +4,14 @@ import msvcrt,time
 import numpy as np
 
 system('cls')
-speed=5
+speed=3
 speed=1/speed/2
 #▓9619
 #█9608
 #▒ 9618
 #░ 9617
-l=15
-b=15
+l=9
+b=9
 sl=6
 sb=6
 
@@ -112,7 +112,7 @@ while alive==True:
     else:
         score+=1
         snake+=1
-        foodie=randint(1, (l-2)*(b-2)-snake-1)
+        foodie=randint(1, (l-2)*(b-2)-snake)
         eaten=False
         cnt=0
         brakie=False
@@ -131,7 +131,7 @@ while alive==True:
                     
 
     system('cls')    
-    print(foodie)
+    print((l-2)*(b-2)-snake,foodie)
     print("Score",score)            
     #print(direc)   #for debugging      
     #print(area)  
